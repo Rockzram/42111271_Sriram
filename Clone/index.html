@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://static-00.iconduck.com/assets.00/samsung-s-icon-256x256-v2u8g5wt.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link href="https://fonts.cdnfonts.com/css/samsung-sans-4" rel="stylesheet">
+    <link rel="stylesheet" href="./clone.css">
+    <title>Samsung Website Clone</title>
+</head>
+<body>
+    <div class="main_box" style="overflow: hidden;">
+        <div class="nav_bar">
+            <div class="site_bar">
+            <a href="#"><img src="./samsung.png  "style="width:100px" ></a>
+            </div>
+            <div class="navbar_btn">
+               <div class="btn_1"><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/samsung-1/192/samsung_finder-512.png" alt="Icon of search icon" style="width:30px"></a></div> 
+               <div class="btn_1"><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/samsung-1/192/samsung_mall-512.png" alt="Icon of cart" style="width:30px"></a></div>  
+               <div class="btn_1"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-pen"><path d="M2 21a8 8 0 0 1 10.821-7.487"/><path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/><circle cx="10" cy="8" r="5"/></svg></a></div> 
+               <div class="btn_1"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify"><path d="M3 12h18"/><path d="M3 18h18"/><path d="M3 6h18"/></svg></a></div>
+            </div>
+        </div>
+        <div class="img_transis" >
+            <div id="img1">
+                <img id="img2" src="./Galaxy Tab S10 series.jpg" alt="Image of Samsung" height="600" width="1200">
+               
+            </div>
+            <div class="btn_transis">
+                <button id="prev_btn1" onclick="Prev()" >&laquo Prev</button> 
+                <button id="next_btn1" onclick="Next()">Next &raquo</button> 
+            </div>
+        </div>
+        <div class="highlight">
+            <h3 style="font-weight: 600;">This Week's Highlights</h3>
+                <div class="nav_bar1">
+                    <a href="#" >New_In</a> 
+                    <a href="#">TV</a>
+                    <a href="#">Appliances</a> 
+                    <a href="#">Ecosystem</a> 
+                </div>
+            <div class="grid_content">
+                    <div class="content_box1">
+                        <img id="smg_img" src="https://assets.mspimages.in/c/tr:h-260,t-true/21981-167-1.jpg" alt="Image of s24" style="width:170px;height:170px;position:relative;bottom:100px;margin-top:40px;">
+                        <p style="position: relative;top:40px;border-top:5px solid white;width:100%;display:flex;justify-content: center;">Galaxy S24 series
+                        <br>Starting from RS.62500*</br></p>
+                        <button id="buy_now1" >Buy Now</button>
+                    </div>
+                    <div class="content_box2">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-x820nzaains/gallery/in-galaxy-tab-s10-plus-sm-x820-sm-x820nzaains-thumb-543763903?$240_240_PNG$" style="width:20vw">
+                        <p style="position:relative;top:10px;width:100%">Galaxy Tab S10</p>
+                                <p>with upto RS.15000 bank discount</p>
+                                <button id="buy_now2" >Buy Now</button>
+                    </div>
+                    <div class="content_box3">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/np750xgk-lg2in/gallery/in-galaxy-book-np750xgk-lg2in-front-gray-541804319?imbypass=true" style="width:20vw">
+                        <p>Galaxy Book4 Series</p>
+                        <p style="position: relative;top:6px;width:100%">Upto RS.13500 with bank discount</p>
+                        <button id="buy_now3" >Buy Now</button>
+                    </div>
+                    <div class="content_box4">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/rt51dg682bb1tl/gallery/in-top-mount-freezer-optimal-fresh-519191-rt51dg682bb1tl-543025412?$365_292_PNG$" style="width:20vw">
+                        <p>Galaxy 465 BESPOKE AI</p>
+                        <p>Avail Benefits upto RS.10500</p>
+                        <button id="buy_now2">Buy Now</button>
+                    </div>
+                    <div class="content_box5">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/ua43due70bklxl/gallery/in-crystal-uhd-du7000-499586-ua43due70bklxl-540344867?$365_292_PNG$" style="width:15vw">
+                        <p>Crystal UHD TV</p>
+                        <p>with upto RS.3000 with bank account</p>
+                        <button id="buy_now3">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_menu">
+            <h3 style="font-weight: 700;">Mobile Menu</h3>
+            <div class="mob_nav">
+                <div class="gal_nav"><a href ="#">Galaxy Z Fold6</a></div>
+                <div class="gal_nav"><a href ="#">Galaxy Z Flip6</a></div>
+                <div class="gal_nav"><a href ="#">Galaxy S24 Ultra</a></div>
+                <div class="gal_nav"><a href ="#">Galaxy Book4</a></div>
+                <div class="gal_nav"><a href ="#">Galaxy Watch Ultra</a></div>
+            </div>
+            <div class="mob_disp">
+                <img src="https://images.samsung.com/in/smartphones/galaxy-z-fold6/images/galaxy-z-fold6-features-kv-tb.jpg?imbypass=true" alt="Image of Z Fold 6" height="400">
+                <h2 style="font-weight: 800;margin-top: 20px;">Galaxy Z Fold6</h2>
+                <p style="font-weight: 800;">Starting from RS.6354*/mo.</p>
+                Get upto RS.18000 off on Galaxy Ultra or Galaxy Buds bundle
+            <div class="mob_tag">
+                <a href="#">Learn More</a>
+                <button id="mob_btn">Buy Now</button>
+            </div>
+            </div>
+        </div>
+        <div class="tv_menu">
+            <h2 style="font-weight:700">TV & AV</h2>
+            <div class="tv_navbar">
+                <div class="tv_navcon1"><a href="#">Neo QLED 8K</a></div>
+                <div class="tv_navcon1"><a href="#">OLED</a></div>
+                <div class="tv_navcon1"><a href="#">Monitor</a></div>
+                <div class="tv_navcon1"><a href="#">The Frame</a></div>
+                <div class="tv_navcon1"><a href="#">Crystal 4K UHD</a></div>
+            </div>
+            <div class="tv_disp">
+                <img src="https://images.samsung.com/is/image/samsung/assets/in/home/QN800D-12.jpg?$1440_810_JPG$" width="1500" alt="Image of Neo Qled 8K" w>
+                 <div class="desc_img"><h2 style="font-weight: 1000;">Upscale every moment with more WOW</h2></div>
+            </div>
+            <div class="tv_tag">
+                <button class="mob_btn">Learn more</button>
+            </div>
+         </div> 
+            <div class="recomm_prod">
+                <h2>Recommended Products</h2>
+                <div class="sec_recom">
+                <div class="sec_pro">
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/rt28c3733s8-hl/gallery/in-236l-convertible-freezer-double-door-refrigerator-rt28c3732s8-rt28c3733s8-hl-thumb-541365288?$216_216_PNG$" ">
+                    <h5 style="font-weight:800;">28L Microwave Oven</h5>
+                    <p>Colour :Black</p>
+                    <br><p style="margin-top: 60px;margin-bottom:30px">MRP(inclusive of all taxes) Save Rs.2800</p>
+                    <p><b>Rs.12790.00</b></p></br>
+                    <button class="sec_btn1"><a href="#" style="color:white">Buy Now</a></button>
+                </div>
+                <div class="sec_pro1">
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-watch7-l300-sm-l300nzgains-thumb-542366932?$216_216_PNG$">
+                    <h5 style="font-weight:800;">Galaxy Watch7 (Bluetooth,4.4cm)</h5>
+                    <p style="margin-bottom: 70px;">Colour :Green</p>
+                    <br><p style="margin-bottom:30px ;">MRP(inclusive of all taxes) Save Rs.3000</p>
+                    <p><b>Rs.30000.00</b></p></br>
+                    <button class="sec_btn3" ><a href="#" style="color:white;">Buy Now</a></button>
+                </div>
+                <div class="sec_pro2">
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-q5saph/gallery/in-galaxy-ring-q500-524097-sm-q5saph-thumb-543670924?$216_216_PNG$" >
+                    <h5 style="font-weight:800;">Galaxy Ring</h5>
+                    <p>Colour :Titanium Black</p>
+                    <br><p style="margin-bottom: 30px;margin-top:60px;">MRP(inclusive of all taxes) Save Rs.1000</p>
+                    <p><b>Rs.38999.00</b></p></br>
+                    <button class=sec_btn3><a href="#" style="color:white">Buy Now</a></button>
+                </div>
+                <div class="sec_pro3">
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elvjins/gallery/in-galaxy-a35-5g-sm-a356-sm-a356elvjins-thumb-540296477?$216_216_PNG$" >
+                    <h5 style="font-weight:800;">Galaxy A35 5G(8GB Memory)</h5>
+                    <p>Colour :Awesome Lilac</p>
+                    <p>128GB or 256GB</p>
+                    <br><p>MRP(inclusive of all taxes) Save Rs.3000</p>
+                    <p style="margin-top:20px;"><b>Rs.30999</b></p></br>
+                    <button class=sec_btn2><a href="#" style="color:white">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="regulations">
+            <h6>Important Notice:</h6>
+            <ul>
+                <li> Image simulated. Samsung account login may be required for certain AI features.</li>
+                <li> Image simulated. Available colours of Galaxy Buds3 Pro may vary by country or carrier. Galaxy Buds3 Pro supports  Galaxy AI features such as interpreter and Live Translate when paired with compatible Samsung Galaxy devices. Availability of Galaxy AI features may vary by device model. See samsung.com for details.</li>
+                <li> Image simulated. Samsung account login is required for certain AI features.</li>
+                <li> Color and model availability may vary depending on country or carrier.</li>
+                <li> Samsung account login is required for certain AI features.</li>
+                <li> 5G Devices are 5G ready, connectivity dependent on network availability.</li>
+                <li> Image stipulated for representation purpose only. Cashback subject to maximum capping limit. Third party finance offers are at the sole discretion of the partners/NBFC/financiers. 10% cashback applicable as per limits: Infinte variant: RS 5000 monthly, RS 20000 annually, Signature variant:RS 2500 monthly,RS 10000 annually.</li>
+                <li> Offers may be revised or withdrawn without prior notice.</li>
+                <li> Watch screen image simulated for illustrative purpose. Availability of colours, sizes, models, and watch bands may vary by country or carrier.</li>
+                <li> S Pen Fold Edition sold separately and is only compatible with Z Fold5, Z Fold4 and Z Fold3. Flex mode supported at angles between 75˚ and 115˚</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="product_foot1" style="border:1px solid black">
+                <h6>Product & Service</h6>
+                <a href="#"><p>Smartphones</p></a>
+                <a href="#"><p>TV</p></a>
+                <a href="#"><p>Tablets</p></a>
+                <a href="#"><p>Watches</p></a>
+            </div>
+            <div class="product_foot2" style="border:1px solid black">
+                <h6>Shop</h6>
+                <a href="#"><p>FAQ</p></a>
+                <a href="#"><p>Contact Us</p></a>
+                <a href="#"><p>Welcome Voucher</p></a>
+                <a href="#"><p>Explore</p></a>
+            </div>
+            <div class="product_foot3" style="border:1px solid black">
+                <h6>Support</h6>
+                <a href="#"><p>WhatsApp</p></a>
+                <a href="#"><p>Sign Language</p></a>
+                <a href="#"><p>Email Us</p></a>
+                <a href="#"><p>Call Us</p></a>
+            </div>
+            <div class="product_foot4" style="border:1px solid black">
+                <h6>Account & Community</h6>
+                <a href="#"><p>My Page</p></a>
+                <a href="#"><p>My Products</p></a>
+                <a href="#"><p>Orders</p></a>
+                <a href="#"><p>Vouchers</p></a>
+            </div>
+            <div class="product_foot5" style="border:1px solid black">
+                <h6>About Us</h6>
+                <a href="#"><p>Company Info</p></a>
+                <a href="#"><p>Business Area</p></a>
+                <a href="#"><p>Careers</p></a>
+                <a href="#"><p>Ethics</p></a>
+            </div>
+        </div>
+        <div class="links">
+            <h7>Stay in Loop?</h7>
+            <a href="https://www.instagram.com/samsungindia/" class="fa fa-instagram" ></a> 
+            <a href="https://www.youtube.com/@Samsung" class="fa fa-youtube"></a>  
+            <a href="https://x.com/samsungindia?lang=en" class="fa fa-twitter"></a>  
+        </div>
+    </div>
+    <script src="./clone.js"></script>
+</body>
+</html>
